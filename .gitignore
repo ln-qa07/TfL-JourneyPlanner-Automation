@@ -1,0 +1,23 @@
+# .NET build output
+**/bin/
+**/obj/
+.vs/
+
+# Local IDE/user-specific settings
+.vscode/
+*.user
+*.suo
+
+# Test output, reports, screenshots, traces
+**/TestResults/
+**/Reports/
+*.trx
+*.log
+playwright-report/
+test-results/
+
+# Operating-system generated files
+.DS_Store
+Thumbs.db
+
+# Do not ignore source feature files, appsettings.json or the .csproj
